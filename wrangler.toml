@@ -1,0 +1,13 @@
+name = "ghorpadi-route-bot"
+main = "src/index.js"
+compatibility_date = "2026-07-19"
+
+# Daily 8 AM broadcast: 7:55 AM IST = 2:25 AM UTC
+[triggers]
+crons = ["25 2 * * *"]
+
+# Subscriber storage - replace "id" below with the ID printed after
+# running: npx wrangler kv namespace create SUBSCRIBERS
+[[kv_namespaces]]
+binding = "SUBSCRIBERS"
+id = "6dbeb08b445f4ffe97fa3e1302a46d23"

@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Wrangler local state / cache
+.wrangler/
+
+# Environment files (never commit secrets)
+.env
+.env.local
+.dev.vars
+
+# Editor/OS junk
+.DS_Store
+Thumbs.db
