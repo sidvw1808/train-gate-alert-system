@@ -1,4 +1,4 @@
-# Ghorpadi Gate Alert 🚦
+# Train Gate Alert 🚦
 
 A real-time commute assistant that tells you which route to take to avoid
 the Ghorpadi railway level crossing when it's down — before you even leave
